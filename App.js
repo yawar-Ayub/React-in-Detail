@@ -1,4 +1,6 @@
 //  This is episode 2  I hope you will enjoy it
+import React from "react"
+import ReactDOM from "react-dom/client"
 
 const heading1 = React.createElement("h1",{},"I am in h1 tag");
 const heading3 = React.createElement("h1",{},"I am in h1 tag");
