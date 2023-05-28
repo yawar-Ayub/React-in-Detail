@@ -14,4 +14,7 @@ React.createElement("div", {
 );
 const root =ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
-console.log(root)
+const list =React.createElement("ul",{},
+[React.createElement("li",{id:"li"},"React"),React.createElement("li",{id:"li"},"JavaScript")]);
+const rootlist = ReactDOM.createRoot(document.getElementById("rootlist"));
+rootlist.render(list);
